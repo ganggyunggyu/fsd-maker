@@ -19,7 +19,7 @@ package.json 파일에 스크립트를 추가해 주세요. 이렇게 하면 명
 ```
 {
   "scripts": {
-    "fsd-g": "ts-node fsd-maker.ts generate-fsd"
+    "fsd-g": "node --loader ts-node/esm fsd-maker.ts generate-fsd"
   }
 }
 ```
